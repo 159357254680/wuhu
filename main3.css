@@ -1,0 +1,280 @@
+.main3{
+    position: relative;
+    margin-left: 125px;
+    width: 887px;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 887px;
+    height: 250px;
+    gap: 15px;
+}
+
+.box3 .red{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 100px;
+    background-color: rgb(241, 108, 137);
+    z-index: 1;
+}
+
+
+
+.red a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.red:hover{
+    background-color: red;
+}
+
+/* 大兔子 */
+
+.big{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+
+}
+
+ .small{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+} 
+
+.round1{
+    position: absolute;
+    top: -5px;
+    left: -2.1px;
+    border-radius: 100%;
+    border: 2px solid red;
+    height: 10px;
+    width: 10.4px;
+} 
+
+.round2{
+    position: absolute;
+    top: -5px;
+    left: 32.3px;
+    border-radius: 100%;
+    border: 2px solid red;
+    height: 11px;
+    width: 10.4px;
+} 
+
+ .hidden{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    margin-top: -32px;
+    z-index: 0;
+    background-color: aquamarine;
+    height: 20px;
+    width: 45px;
+} 
+
+.eye1{
+    position: absolute;
+    left: 12px;
+    top: 30px;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+}
+
+.eye2{
+    position: absolute;
+    left: 32px;
+    top: 30px;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+}
+
+.mouth{
+    position: absolute;
+    top: 36px;
+    left: 22px;
+    background-color: red;
+    height: 10px;
+    width: 2px;
+}
+
+.nose{
+    position: absolute;
+    top: 34px;
+    left: 19px;
+    background-color: red;
+    height: 2px;
+    width: 8px;
+}
+
+/* 小兔子 */
+
+.bigt{
+    position: relative;
+    height: 35px;
+    width: 37px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+
+}
+
+ .smallt{
+    position: absolute;
+    top: 0;
+    left: 9px;
+    height: 15px;
+    width: 15px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+} 
+
+.round1t{
+    position: absolute;
+    top: -5px;
+    left: -2.1px;
+    border-radius: 100%;
+    border: 2px solid red;
+    height: 9px;
+    width: 9px;
+} 
+
+.round2t{
+    position: absolute;
+    top: -5px;
+    left: 26px;
+    border-radius: 100%;
+    border: 2px solid red;
+    height: 9px;
+    width: 9px;
+} 
+
+ .hiddent{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    margin-top: -32px;
+    z-index: 0;
+    background-color: aquamarine;
+    height: 20px;
+    width: 37px;
+} 
+
+.eye1t{
+    position: absolute;
+    left: 8px;
+    top: 22px;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+}
+
+.eye2t{
+    position: absolute;
+    left: 28px;
+    top: 22px;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+}
+
+.moutht{
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    background-color: red;
+    height: 10px;
+    width: 2px;
+}
+
+.noset{
+    position: absolute;
+    top: 23px;
+    left: 15px;
+    background-color: red;
+    height: 2px;
+    width: 8px;
+}
+
+/* 总兔子 */
+.rabbit1{
+    position: absolute;
+    top: 178px;
+    left: 130px;
+    align-items: flex-end;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.rabbit2{
+    position: absolute;
+    top: 178px;
+    left: 310px;
+    align-items: flex-end;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.rabbit3{
+    position: absolute;
+    top: 178px;
+    left: 490px;
+    align-items: flex-end;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.rabbit4{
+    position: absolute;
+    top: 178px;
+    left: 670px;
+    align-items: flex-end;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.red1:hover ~ .rabbit1{
+    position: absolute;
+    top: 126px;
+}
+
+.red2:hover ~ .rabbit2{
+    position: absolute;
+    top: 126px;
+}
+
+.red3:hover ~ .rabbit3{
+    position: absolute;
+    top: 126px;
+}
+
+.red4:hover ~ .rabbit4{
+    position: absolute;
+    top: 126px;
+}

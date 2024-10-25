@@ -1,0 +1,87 @@
+.main1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 125px;
+    width: 887px;
+    height: 350px;
+    background-color: white;
+}
+
+.main1 .box{
+    box-sizing: border-box;
+    padding-left: 65px;
+    width: 200px;
+    height: 350px;
+}
+
+.main1 .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid rgb(2, 172, 93);
+    border-radius: 100%;
+    font-size: 20px;
+    color: rgb(2, 172, 93);
+}
+
+
+.main1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: -25px;
+    height: 150px;
+    width: 200px;
+}
+
+.main1 p{
+    color: black;
+}
+
+.main1 .line{
+    margin-top: 109px;
+    width: 0px;
+    height: 140px;
+    border: 1px dashed gray;
+}
+
+.main1 .circle{
+    margin-left: 15px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(2, 172, 93);
+    border-radius: 100%;
+}
+
+.main1 .dashed1{
+    position: absolute;
+    top: 12px;
+    width: 25px;
+    height: 0;
+    border: 0.1px dashed rgb(2, 172, 93);
+}
+
+.main1 .dashed2{
+    position: absolute;
+    left: 12px;
+    width: 0;
+    height: 25px;
+    border: 0.1px dashed rgb(2, 172, 93);
+}
+
+.main1 p:hover{
+    color: red;
+}
+
+.round:hover{
+    background-color: rgb(2, 172, 93);
+    color: white;
+}

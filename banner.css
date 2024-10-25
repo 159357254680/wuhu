@@ -1,0 +1,8 @@
+.banner{
+    margin-left: 125px;
+    width: 887px;
+    height: 250px;
+    background-color: aqua;
+    background-image: url(./轮播图.png);
+    background-size: cover;
+}

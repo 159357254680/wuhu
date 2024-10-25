@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 125px;
+    color: rgb(2, 172, 93);
+    font-size: 24px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.nav ul{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav a{
+    color: black;
+}
+
+
+.nav a:hover{
+    color: red;
+    border-top: 2px solid red;
+}
+
+.search{
+    margin-top: 18px;
+    margin-left: 125px;
+    display: flex;
+}
+
+.search input{
+    width: 200px;
+    height: 25px;
+    outline: none;
+    border: 2px red solid;
+}
+
+.search button{
+    cursor: pointer;
+    border: transparent;
+    height: 29px;
+    width: 75px;
+    background-color: red;
+    background-image: url(./搜索框.png);
+    background-size: cover;
+}
+
+.user{
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: 18px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    background-image: url(./user.png);
+}
+
+.exit button{
+    cursor: pointer;
+    border: transparent;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgb(2, 172, 93);
+    width: 75px;
+    height: 25px;
+    color: white;
+}
