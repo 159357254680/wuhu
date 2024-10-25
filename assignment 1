@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           justify-content: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tr > th {
+            padding-left: 0;
+            background-color: rgb(226, 227, 228);
+            width: 200px;
+            height: 40px;
+        }
+    
+        tr > td {
+            padding-left: 24px;
+            width: 200px;
+            height: 40px;
+        }
+
+        th:nth-child(1){
+            width: 75px;
+        }
+        
+        td:nth-child(1){
+            width: 75px;
+            background-color: rgb(226, 227, 228);
+        }
+        
+        .null{
+            display: none;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="box">
+
+        <h2>运费详情</h2>
+
+        <table border="1"> 
+            <tr>
+                <th>区域</th>
+                <th>寄达地</th>
+                <th>首重(元/1000g)</th>
+                <th>续重(元/1000g)</th>
+            </tr>
+    
+            <tr>
+                <td rowspan="2">一区</td>
+                <td>浙江、上海、江苏</td>
+                <td>6</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td class="null"></td>
+                <td>江西、安徽</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+    
+            <tr>
+                <td>二区</td>
+                <td>吉林、黑龙江、云南</td>
+                <td>10</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>三区</td>
+                <td>新疆、西藏</td>
+                <td>15</td>
+                <td>10</td>
+            </tr>
+
+    
+        </table>
+
+    </div>
+
+    
+</body>
+</html>
