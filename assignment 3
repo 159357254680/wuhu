@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+
+        #page{
+            width: 400px;
+            height: 120px;
+            
+        }   
+
+
+
+        #header{
+            float: left;
+            width: 400px;
+            height: 38px;
+            display: block;
+            background-color: #cdd3de;
+    }
+        #content{
+            margin-top: 20px;
+            float: left;
+            width: 125px;
+            height: 100px;
+            background-color: #f0b7c0;
+    }
+        #sidebar{
+            margin-top: 20px;
+            float:right ;
+            width: 100px;
+            height: 40px;
+            background-color: #f0d2e6;
+    }
+        #sidebar2{
+            margin-top: 20px;
+            float: left;
+            width: 175px;
+            height: 40px;
+            background-color: #c3eedf;
+    }
+        #footer{
+            margin-top: 20px;
+            float: left;
+            width: 400px;
+            background-color: #f7f9c2;
+    }
+
+        #content p{
+            padding-bottom: 10px;
+        }
+
+        p:nth-child(1){
+             padding: 10px 1px;
+    }
+
+
+    #page:after{
+        content: '';
+        clear:both
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="header"><h1>这里是标题</h1></div>
+        <div id="sidebar">
+            <p>侧边栏1</p>
+        </div>
+        <div id="sidebar2">
+            <p>侧边栏2</p>
+        </div>
+        <div id="content">
+            <p>这里是一些文字</P>
+            <p>再来一大段文字</P>
+            <p>地图投影</p>
+        </div>
+        <div id="footer"><p>没人关注的页脚</P></div>
+    </div>
+</body>
+</html>
