@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+        let str1 = prompt(`请输入一个字符串`)
 
         function countBs(N){
             let sum = 0
@@ -16,12 +17,15 @@
                 }
             }
 
-            console.log(sum);
+            alert(`B的数量是${sum}`);
         }
 
-        countBs('aflkashfhjBB')
+        countBs(str1)
 
         //
+        let str2 = prompt(`请输入一个字符串`)
+        let z = prompt(`请输入一个字符`)
+
         function countChar(M,m){
             let num = 0
             for(let j = 0; j < M.length; j++ ){
@@ -30,10 +34,10 @@
                 }
             }
 
-            console.log(num);
+           alert(`${z}的数量是${num}`)
         }
 
-        countChar('aaksdfjakff','a')
+        countChar(str2,z)
 
 
 
