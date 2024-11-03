@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isEven(N){
+            while(true){
+                N -= 2
+                if(N === 0){
+                    console.log(true);
+                    break
+                }
+
+                if(N === 1){
+                    console.log(false);
+                    break 
+                }
+
+                if(N < 0){
+                    break
+                }
+            }
+        }
+
+        isEven(50)
+        isEven(75)
+        isEven(-1)
+        // -1小于0和1
+
+        //改
+        function isEven2(M){
+            let zero = 0
+            let one = 1
+            while(true){
+                if( zero += 2 === M){
+                    console.log(true);
+                    break
+               }
+                if(zero -= 2 === M ){
+                    console.log(true);
+                    break
+               }
+               if(one += 2 === M ){
+                    console.log(false);
+                    break
+               }
+               if(one -= 2 === M ){
+                    console.log(false);
+                    break
+               }
+        }
+    }
+
+    isEven2(50)
+    isEven2(75)
+    isEven2(-1)
+
+
+
+    </script>
+</body>
+</html>

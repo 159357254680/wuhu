@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function countBs(N){
+            let sum = 0
+            for(let i = 0; i < N.length; i++ ){
+                if(N[i] === 'B'){
+                  sum += 1
+                }
+            }
+
+            console.log(sum);
+        }
+
+        countBs('aflkashfhjBB')
+
+        //
+        function countChar(M,m){
+            let num = 0
+            for(let j = 0; j < M.length; j++ ){
+                if(M[j] === m){
+                  num += 1
+                }
+            }
+
+            console.log(num);
+        }
+
+        countChar('aaksdfjakff','a')
+
+
+
+
+    </script>
+</body>
+</html>

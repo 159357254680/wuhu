@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const str = `#`
+        function getChessboard  (size){
+            for(let row = 1; row <= size; row++){
+                document.write(`</br>`)
+                for(let col = 1; col <= size; col++){
+                    if(row % 2 !== 0&& col % 2 === 0){
+                        document.write(`\xa0 `)
+                        document.write(str)
+                    }
+                    if(row % 2 === 0&& col % 2 !== 0){
+                        document.write(str)
+                        document.write(`\xa0 `)
+                    }
+                
+
+            }
+        
+        }
+        
+        }
+        
+        getChessboard(8)
+
+    </script>
+
+
+
+</body>
+</html>
